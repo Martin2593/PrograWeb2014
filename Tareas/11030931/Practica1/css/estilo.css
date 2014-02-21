@@ -1,0 +1,139 @@
+body /* selector puede ser nombre de clase o id */
+{
+     /* font-family: 'Jolly Lodger', cursive    */    /*font-family: 'Lily Script One', cursive;   */     /*font-size:12px; */ 
+
+    font: 16px/26px Helvitica; 
+    line-height: 1.4;
+
+}
+
+.container 
+{
+	width: 90%; 
+	margin: 0 5%;
+}
+
+
+
+
+ .header-container /* "." selecciona a todo los elementos que contengan esta clase */
+{
+      
+    border-bottom: 20px solid #e44d26;
+
+      /*color:red; */
+} 
+
+ /*#titulo1 /* "#" seleccion una etiqueta en especifico */
+/*{ 
+ color:red;
+} */ 
+.footer-container, .main aside
+{
+  border-top: 20px solid #e44d26;
+}
+
+/*h1
+{
+   font-family: 'Jolly Lodger', cursive;
+}
+
+h2
+{
+	font-family: 'Frijole', cursive;
+}
+
+h3
+{
+
+	font-family: 'Akronim', cursive;
+}*/ 
+.header-container, .footer-container, .main aside
+{
+	background: #f16529;
+} 
+
+.tittle{
+	color: white;
+}
+nav ul{
+	margin: 0;
+	padding: 30px; /* modelo de caja, es el margen interior de cada elemento se puede definir el superior,inferior
+	cuando son 2 elementos se refieren al superior inferior e izquierda y derecha, si estan los 4 se modifian en sentido de las
+	manecillas del relog*/
+} 
+nav a{
+	display: block;
+	margin-bottom: 10px;
+	padding: 15px 0; 
+
+	text-align: center; 
+	text-decoration: none; 
+	font-weight: bold;
+
+	color: white;
+	background: #e44d26;
+} 
+
+nav a:hover, nav a:visited{      /* cambia de color cuando se pasa el cursor sobre los elemento de a hover,visited y cambia el color 
+	cuando ya ha sido visitado*/
+
+color: white;
+} 
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+.main{
+	padding: 30px 0;
+}
+.main article h1{
+	font-size: 2em; 
+
+} 
+.main aside{
+	color: white; 
+	padding: 0px 5% 10 px; 
+} 
+.footer-container footer{
+	color: white; 
+	padding: 20px 0; 
+} 
+.clear:before, .clear:after{
+	content: " "; 
+	display: table;
+} 
+
+.clear:after{
+	clear: both; 
+	
+	} 
+	/*Muestran o eliminan el codigo, dependiendo de la resolucion*/ 
+	/*Para este ejemplo se comienza de la resolucion mas baja, y solo se aplica cuando es mayor a 480*/
+
+	@media only screem and(min-width: 480px) {
+		h1{
+			color: red;  
+		} 
+		nav a{
+			float: left; 
+			width: 27%; 
+			margin: 0 1.7%; 
+			padding: 25px 2%; 
+			margin-bottom: 0; 
+		} 
+		nav li:first-child a /*el primer nodo de la lista de la lista con etiqueta a*/{
+			margin-right: 0;
+		} 
+		nav li: last-child a {
+			margin-right: 0; 
+
+		} 
+		nav ul li{
+			display: inline; 
+			} 
+		.oldie nav a{
+			margin: 0 0.7%;
+		}
+ 	}
