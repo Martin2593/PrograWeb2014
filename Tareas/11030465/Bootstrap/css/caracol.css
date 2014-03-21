@@ -1,0 +1,52 @@
+body{
+
+background-image: url("../img/f6.jpg") ;
+
+}
+.posicion1{
+text-align: right;
+background-image: url("../img/f5.jpg") ;
+}
+.posicion2{
+text-align: right;
+background-image: url("../img/agujero.jpg") ;
+
+}
+.color1{
+	/*background-image: url("../img/f3.jpg");*/
+	
+	text-align: center;
+	
+}
+.color2{
+background-image: url("../img/agujero.jpg") ;
+
+	text-align: center;
+}
+
+.color3{
+	font-style: arial;
+	font-size: 200%;	
+	color: black;
+	text-align: center;
+}
+h1{
+	font-style: arial;
+	font-size: 400%;	
+	color: white;
+}
+h2{
+	color: #ffffff;
+	font: 32px Tahoma, Arial, sans-serif;
+}
+button {
+  background: #006699;
+  border: none;
+  color: #ffffff;
+  font: 22px Tahoma, Arial, sans-serif;
+  padding: 10px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #333;
+  letter-spacing: 2px;
+}

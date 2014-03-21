@@ -1,0 +1,35 @@
+#body{
+
+	
+	background-image: url('../img/fondo.png');
+background-repeat: no-repeat;
+background-size: 100%; 
+
+}
+h1 { 
+  font-size: 16pt;
+}
+
+.color1{
+	background-color: red;
+}
+.color2{
+	background-color: green;
+	
+}
+.color3{
+	background-color: yellow;
+}
+.color4{
+	background-color: navy;
+}
+.color5{
+	background-color: orange;
+}
+.color6{
+	background-color: purple;
+}
+#h3{
+	background-color: purple;
+	font-color:white;
+}

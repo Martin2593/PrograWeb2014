@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Gabriela';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gabriela'), local('Gabriela-Regular'), url(font/static/fonts/gabriela/v2/fLaucCvjCt_Hmc9smyo_rPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+body{
+	
+	font-size: 12px Helvetica;
+	font-family: 'Frijole', cursive;
+}
+.header-container{
+	font-size: 12px Helvetica;
+	font-family: 'Allura', cursive;
+	color:red;
+
+}
+#titulo{
+	color:#333300;
+	font-family: 'Allura', cursive;
+
+}
+.title{
+	color:red;
+	font-family: 'Russo One', sans-serif;
+}
+h1{
+ font-family: 'Gabriela';
+}
