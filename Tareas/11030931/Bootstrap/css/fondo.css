@@ -1,0 +1,39 @@
+body { 
+  background: url("../img/apple.jpg") greenyellow; 
+
+}
+
+h1{
+
+
+
+	 font: 30px/30px Helvitica; 
+	 text-shadow:5px -30px 5px #000000;
+
+	 text-align: center;
+    line-height: 1.4;
+
+
+}
+
+h2{
+
+
+
+	 font: 30px/30px Helvitica; 
+
+	 text-align: center;
+    line-height: 1.4;
+
+
+}
+h4{
+
+
+
+	font: 15px/15px Helvitica; 
+
+	 text-align: center;
+    line-height: 1.4;
+
+}

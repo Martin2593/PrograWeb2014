@@ -1,0 +1,40 @@
+body { 
+  background: url("../img/bob.jpg")  greenyellow; 
+
+}
+
+h1{
+
+
+
+	 font: 60px/60px Helvitica; 
+	 text-shadow:5px -30px 5px blue;
+
+	 text-align: center;
+    line-height: 1.4;
+    COLOR: black;
+
+
+}
+
+h2{
+
+
+
+	 font: 30px/30px Helvitica; 
+
+	 text-align: center;
+    line-height: 1.4;
+
+
+}
+h4{
+
+
+
+	font: 15px/15px Helvitica; 
+
+	 text-align: center;
+    line-height: 1.4;
+
+}
